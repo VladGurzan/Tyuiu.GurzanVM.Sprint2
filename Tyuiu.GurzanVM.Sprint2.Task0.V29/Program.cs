@@ -31,7 +31,7 @@ namespace Tyuiu.GurzanVM.Sprint2.Task0.V29
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
+             
             Console.WriteLine("X = " + x);
             Console.WriteLine("Y = " + y);
 
