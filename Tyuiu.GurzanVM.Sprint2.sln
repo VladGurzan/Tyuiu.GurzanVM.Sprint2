@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GurzanVM.Sprint2.Task
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{907105E2-2F3C-4F4D-B07C-9806ABD5F490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GurzanVM.Sprint1.Task1.V10", "Tyuiu.GurzanVM.Sprint1.Task1.V10\Tyuiu.GurzanVM.Sprint1.Task1.V10.csproj", "{07A05536-8CCE-486F-9AC3-28DCECA02F14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GurzanVM.Sprint2.Task1.V10", "Tyuiu.GurzanVM.Sprint1.Task1.V10\Tyuiu.GurzanVM.Sprint2.Task1.V10.csproj", "{07A05536-8CCE-486F-9AC3-28DCECA02F14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GurzanVM.Sprint1.Task1.V10.Lib", "Tyuiu.GurzanVM.Sprint1.Task1.V10.Lib\Tyuiu.GurzanVM.Sprint1.Task1.V10.Lib.csproj", "{CBB0144A-27D8-4C3F-A9DB-27727AF80552}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GurzanVM.Sprint2.Task1.V10.Lib", "Tyuiu.GurzanVM.Sprint1.Task1.V10.Lib\Tyuiu.GurzanVM.Sprint2.Task1.V10.Lib.csproj", "{CBB0144A-27D8-4C3F-A9DB-27727AF80552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GurzanVM.Sprint1.Task1.V10.Test", "Tyuiu.GurzanVM.Sprint1.Task1.V10.Test\Tyuiu.GurzanVM.Sprint1.Task1.V10.Test.csproj", "{103986EF-6C85-4C5C-849B-6907BD7353D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GurzanVM.Sprint2.Task1.V10.Test", "Tyuiu.GurzanVM.Sprint1.Task1.V10.Test\Tyuiu.GurzanVM.Sprint2.Task1.V10.Test.csproj", "{103986EF-6C85-4C5C-849B-6907BD7353D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
