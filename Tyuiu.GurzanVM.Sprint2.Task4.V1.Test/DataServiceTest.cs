@@ -20,9 +20,9 @@ namespace Tyuiu.GurzanVM.Sprint2.Task4.V1.Test
         {
             DataService ds = new DataService();
             double x = 1;
-            double y = 1;
+            double y = 3;
             double res = ds.Calculate(x, y);
-            double wait = -2;
+            double wait = 2;
             Assert.AreEqual(wait, res);
         }
 
