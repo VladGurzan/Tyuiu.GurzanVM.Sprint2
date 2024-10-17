@@ -4,13 +4,21 @@ namespace Tyuiu.GurzanVM.Sprint2.Task7.V5
 {
     class Program
     {
-        void Main(string[] args)
+        static void Main(string[] args)
         {
-            DataService ds = new DataService();
-            bool res;
-            if 
+           
             {
+                DataService ds = new DataService();
 
+                Console.WriteLine("Введите значение X:");
+                double x = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Введите значение Y:");
+                double y = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine(ds.CheckDotInShadedArea(x, y));
+
+                Console.ReadKey();
             }
         }
     }
