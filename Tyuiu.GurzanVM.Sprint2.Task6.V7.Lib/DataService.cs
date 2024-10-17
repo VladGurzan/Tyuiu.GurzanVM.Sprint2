@@ -29,7 +29,7 @@ public class DataService : ISprint2Task6V7
             case 11: return "Ноябрь";
             case 12: return "Декабрь";
         }
-        return "Март";
+        return "март";
     
     
     }
