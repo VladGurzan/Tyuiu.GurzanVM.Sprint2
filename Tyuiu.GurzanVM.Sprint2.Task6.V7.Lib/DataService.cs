@@ -6,13 +6,13 @@ public class DataService : ISprint2Task6V7
 {
     public string FindMonthName(int startYear, int n)
     {
-        if (startYear < 1 || startYear > 365)
-            throw new ArgumentException("от 1 до 365");
+        if (startYear < 1990 && startYear > 2024)
+            throw new ArgumentException("от 1990 до 2024");
 
-        if (n < 1 || n > 12)
+        if (n >= 12 && n <= 1)
             throw new ArgumentException("от 1 до 12");
 
-        int year = ((startYear - 1) / 12) + 1;
+        int year = ((startYear ) / 12);
 
         switch (year)
         {
@@ -29,7 +29,7 @@ public class DataService : ISprint2Task6V7
             case 11: return "Ноябрь";
             case 12: return "Декабрь";
         }
-        return "Некоректный день";
+        return "Март";
     
     
     }

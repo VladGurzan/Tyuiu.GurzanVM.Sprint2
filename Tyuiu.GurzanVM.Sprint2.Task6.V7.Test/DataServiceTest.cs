@@ -15,7 +15,7 @@ public class DataServiceTest
 
         Assert.ThrowsException<ArgumentException>(() =>
         {
-            ds.FindMonthName(-1, 366);
+            ds.FindMonthName(1889, 2025);
         });
 
         Assert.ThrowsException<ArgumentException>(() =>
