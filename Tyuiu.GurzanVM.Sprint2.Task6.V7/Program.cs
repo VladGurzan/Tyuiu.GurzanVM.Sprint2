@@ -7,14 +7,13 @@ namespace Tyuiu.GurzanVM.Sprint2.Task6.V7
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Введите значение переменной StartYear, n");
+            int startYear, n;
+            startYear = Convert.ToInt32(Console.ReadLine());
+            n = Convert.ToInt32(Console.ReadLine());
+
             DataService ds = new DataService();
-
-
-
-
-
-
-
 
             Console.Title = "Спринт #2 | Выполнил: Гурзан.В.М  | СМАРТБ-24-1";
             Console.WriteLine("***************************************************************************");
@@ -31,28 +30,18 @@ namespace Tyuiu.GurzanVM.Sprint2.Task6.V7
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите число от 1 до 365:");
-            int startYear = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Введите число от 1 до 12:");
-            int n = Convert.ToInt32(Console.ReadLine());
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            try
-            {
-                string day = ds.FindMonthName(startYear, n);
-                Console.WriteLine(day);
-            }
-            catch
-            {
-                Console.WriteLine("Неверно");
-            }
-            Console.ReadKey();
+            Console.WriteLine("StartYear: " + startYear + " " + "n: " + n);
 
-            int res;
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            var res = ds.FindMonthName(startYear, n);
+            Console.WriteLine(res);
+            Console.ReadKey();
         }
     }
 }
