@@ -19,7 +19,7 @@ namespace Tyuiu.GurzanVM.Sprint2.Task2.V19
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу на, которая запрашивает целые значения с клавиатуры  *");
-            Console.WriteLine("*и вычисляет находится ли точка с координатами X,Y                        *");
+            Console.WriteLine("* и вычисляет находится ли точка с координатами X,Y                        *");
             Console.WriteLine("* в заштрихованной области.                                               *");
             Console.WriteLine("*                                                                         *");
 

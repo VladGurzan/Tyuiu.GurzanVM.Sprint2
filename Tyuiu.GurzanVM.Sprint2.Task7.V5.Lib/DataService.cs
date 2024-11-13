@@ -6,15 +6,21 @@ namespace Tyuiu.GurzanVM.Sprint2.Task7.V5.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            if ((x <= -(Math.PI * 3 / 4) & y == x) && (x >= Math.PI * 4 & y == x))
-            {
-                return true;
-            }
+            bool res;
 
+            bool a = (y >= (Math.Exp(-x)) && (y <= (Math.Pow(x, 2))));
+            bool b = (y >= (Math.Pow(x, 2)) && (y <= (Math.Exp(x))));
+
+            if (a || b)
+            {
+                res = true;
+            }
             else
             {
-                return true;
+                res = false;
             }
+
+            return res;
 
         }
     }
